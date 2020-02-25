@@ -1,0 +1,16 @@
+spring:
+  redis:
+    host: localhost
+    port: 6379
+  cloud:
+    refresh:
+      enabled: true
+
+management:
+  endpoint:
+    refresh:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: "*"
